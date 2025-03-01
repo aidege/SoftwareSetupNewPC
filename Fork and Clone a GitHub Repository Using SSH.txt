@@ -1,0 +1,12 @@
+1. Open Fork
+2. File > Configure SSH Keys
+3. Click '+'
+4. Click '+' to create a new SSH key.
+
+5. Open github.com
+6. Go to Settings > SSH and GPG keys.
+7. Click "New SSH key", paste your public key, and save.
+8. Copy the SSH URL from your forked repo.
+
+9. Fork
+10. File > Clone..
