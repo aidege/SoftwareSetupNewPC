@@ -18,3 +18,7 @@ https://developer.android.com/studio?hl=zh-cn
 
 7
 https://docs.flutter.dev/release/archive
+
+8
+https://redis.io/
+https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
