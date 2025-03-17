@@ -1,0 +1,7 @@
+1 https://git-scm.com/
+2 https://git-fork.com/
+
+3 local git init
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
