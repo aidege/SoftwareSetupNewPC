@@ -26,18 +26,19 @@ https://golang.google.cn/
 https://www.mongodb.com/try/download/community
 https://www.mongodb.com/products/tools/compass
 
-8
+8 Android Studio
 https://developer.android.com/studio?hl=zh-cn
 
 Android Studio > Flugins > flutter
 New Flutter Project
 
-9
+9 flutter
 https://docs.flutter.dev/release/archive
 
-10
+10 redis
 https://redis.io/
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 
-10
-https://docs.qq.com/
+11 windsurf
+https://codeium.com/windsurf
+
