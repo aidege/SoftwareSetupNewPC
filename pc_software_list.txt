@@ -12,7 +12,8 @@ Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
 3 fork
 https://git-fork.com/
 
-4 Unity
+4 Unity 6
+https://unity.com/releases/editor/archive
 
 5 rider
 https://www.jetbrains.com/zh-cn/rider/
@@ -21,16 +22,20 @@ https://www.jetbrains.com/zh-cn/rider/
 6 golang
 https://golang.google.cn/
 
-7
+7 mongodb
+https://www.mongodb.com/try/download/community
+https://www.mongodb.com/products/tools/compass
+
+8
 https://developer.android.com/studio?hl=zh-cn
 
 Android Studio > Flugins > flutter
 New Flutter Project
 
-8
+9
 https://docs.flutter.dev/release/archive
 
-9
+10
 https://redis.io/
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 
