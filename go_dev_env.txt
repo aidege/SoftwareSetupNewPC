@@ -1,12 +1,12 @@
 
-china net:
+1 china net:
 
 go env -w GOPROXY=https://goproxy.cn,direct
 go mod init gogamego
 go mod tidy
 
 
-
+2 无法将“go”项识别为 cmdlet、函数、
 PS D:\git_db\run\go_room_server> go build
 go : 无法将“go”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
 所在位置 行:1 字符: 1
@@ -14,10 +14,9 @@ go : 无法将“go”项识别为 cmdlet、函数、脚本文件或可运行程
 + ~~
     + CategoryInfo          : ObjectNotFound: (go:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
- 
-PS D:\git_db\run\go_room_server> 
 
 ---------------------
+安装GO语言
 go version suc:
 C:\Users\Administrator>go version
 go version go1.24.0 windows/amd64
@@ -26,3 +25,15 @@ go version go1.24.0 windows/amd64
 default:
 2025-03-04 10:33:11.918 [info] Tools environment: GOPATH=C:\Users\Administrator\go, GOTOOLCHAIN=auto
 2025-03-04 10:33:11.918 [info] Installing 7 tools at C:\Users\Administrator\go\bin
+
+3 dlv : 无法将“dlv”项识别为 cmdlet、函数
+> dlv debug main.go
+dlv : 无法将“dlv”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 1
++ dlv debug main.go
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (dlv:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+解决办法：
+go install github.com/go-delve/delve/cmd/dlv@latest
