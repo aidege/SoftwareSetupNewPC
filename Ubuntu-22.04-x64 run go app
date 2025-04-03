@@ -13,6 +13,13 @@ root@110.40.42.121's password:
 go_app1                                                                                 8% 2752KB 187.4KB/s   02:40 ETA
 
 2. 
+ssh root@100.10.10.100 "ls -la /root/"
+
+3. run
+
+
+
+
 
 
 
@@ -21,5 +28,3 @@ go_app1                                                                         
 $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o go_server_linux
 */
 
-2 upload
-scp go_server_linux root@100.10.88.999:/root/
