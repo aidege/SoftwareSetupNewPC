@@ -1,3 +1,15 @@
+Win10
+Ubuntu
+
+1. Run Ubuntu
+
+ssh root@100.10.10.100
+输入密码
+
+2. 登录成功后：
+
+
+
 # MongoDB 安装指南
 
 ## 安装步骤
