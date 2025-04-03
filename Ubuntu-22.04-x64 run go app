@@ -1,5 +1,21 @@
 Ubuntu-22.04-x64 run go app
 
+1. 安装图形化桌面
+
+ssh root@100.10.10.100 "apt-get update && apt-get install -y ubuntu-desktop"
+
+2
+ssh root@100.10.10.100 "apt-get install -y xrdp && systemctl enable xrdp && systemctl start xrdp"
+
+3
+ssh root@100.10.10.100 "apt-get install -y gnome-session gdm3 && systemctl enable gdm3 && systemctl start gdm3"
+
+4 检查服务状态：
+ssh root@100.10.10.100 "systemctl status gdm3 && systemctl status xrdp"
+
+5.
+
+
 1
 /*
 $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o go_server_linux
