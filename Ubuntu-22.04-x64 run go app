@@ -1,0 +1,5 @@
+Ubuntu-22.04-x64 run go app
+
+/*
+$env:GOOS="linux"; $env:GOARCH="amd64"; go build -o go_server_linux
+*/
