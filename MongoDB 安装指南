@@ -3,7 +3,7 @@ Ubuntu
 
 1. Run Ubuntu
 
-ssh root@100.10.10.100
+ssh root@100.10.10.100 （远程服务器是： Ubuntu）
 输入密码
 
 2. 登录成功后：
@@ -45,6 +45,10 @@ sudo systemctl enable mongod
 sudo systemctl status mongod
 mongod --version
 ```
+成功运行：
+● mongod.service - MongoDB Database Server
+     Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2025-04-03 17:07:00 CST; 19s ago
 
 7. 检查 MongoDB 是否正在运行
 ```bash
