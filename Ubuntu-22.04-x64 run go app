@@ -1,19 +1,19 @@
 Ubuntu-22.04-x64 run go app
 
-1. 安装图形化桌面
+1. send app to remote server
 
-ssh root@100.10.10.100 "apt-get update && apt-get install -y ubuntu-desktop"
+Windows PowerShell
+版权所有 (C) Microsoft Corporation。保留所有权利。
 
-2
-ssh root@100.10.10.100 "apt-get install -y xrdp && systemctl enable xrdp && systemctl start xrdp"
+尝试新的跨平台 PowerShell https://aka.ms/pscore6
 
-3
-ssh root@100.10.10.100 "apt-get install -y gnome-session gdm3 && systemctl enable gdm3 && systemctl start gdm3"
+PS C:\Windows\system32> cd D:\git_db\code_db\jc_game_server\go_server
+PS D:\git_db\code_db\jc_game_server\go_server> scp go_app1 root@100.10.10.100:/root/
+root@110.40.42.121's password:
+go_app1                                                                                 8% 2752KB 187.4KB/s   02:40 ETA
 
-4 检查服务状态：
-ssh root@100.10.10.100 "systemctl status gdm3 && systemctl status xrdp"
+2. 
 
-5.
 
 
 1
