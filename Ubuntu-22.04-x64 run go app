@@ -13,7 +13,7 @@ Windows PowerShell
 尝试新的跨平台 PowerShell https://aka.ms/pscore6
 
 PS D:\go_run> scp go_app1 root@100.10.10.100:/root/
-root@110.40.42.121's password:
+root@100.10.10.100's password:
 go_app1                                                                                 8% 2752KB 187.4KB/s   02:40 ETA
 
 2. view list
