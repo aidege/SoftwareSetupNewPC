@@ -37,7 +37,7 @@ scp go_app1 root@100.10.10.100:/root/
 
 4 打开本地Ubuntu，远程连接到服务器后启动服务：
 gamego@DESKTOP-2DVMEDM:~$ ssh root@100.10.10.100
-root@8.130.22.115's password:
+root@100.10.10.100's password:
 
 cd /root && chmod +x go_app1 && nohup ./go_app1 &
 
