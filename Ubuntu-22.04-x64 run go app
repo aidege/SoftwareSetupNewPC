@@ -24,4 +24,28 @@ ssh root@100.10.10.100 "ls -la /root/"
 
 
 --------------Update
+/*
+1 停止远程服务器上的 go_app1 进程
+ssh root@100.10.10.100 "pkill -f go_app1"
+pwd=Game_@7_Go2025
+
+2 检查是否完全停止：
+ssh root@100.10.10.100 "ps aux | grep go_app1"
+
+3 上传新版本：
+scp go_app1 root@100.10.10.100:/root/
+
+4 打开本地Ubuntu，远程连接到服务器后启动服务：
+
+
+ssh root@8.130.22.115 "cd /root && chmod +x go_app1 && nohup ./go_app1 &"
+
+5 检查服务是否启动：
+
+
+6 检查日志文件：
+
+
+
+*/
 
