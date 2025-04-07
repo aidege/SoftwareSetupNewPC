@@ -1,7 +1,12 @@
 Ubuntu-22.04-x64 run go app
 
-1. send app to remote server
+1. from win10 send app to remote Ubuntu server
 
+2. powershell 输入在地址栏后回车
+
+3. 先停止远程服务器上运行的程序 go_app1
+
+4. 上传新的
 Windows PowerShell
 版权所有 (C) Microsoft Corporation。保留所有权利。
 
