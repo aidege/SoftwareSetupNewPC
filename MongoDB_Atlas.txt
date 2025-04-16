@@ -1,0 +1,6 @@
+MongoDB Atlas: 无论选择哪个平台，MongoDB Atlas 的免费 M0 集群是最佳选择。注册后创建集群，获取连接字符串（如 mongodb+srv://<user>:<pass>@cluster0.mongodb.net），并在 Go 代码中使用 mongo-driver 连接。
+
+
+
+free server:
+https://dashboard.render.com/
