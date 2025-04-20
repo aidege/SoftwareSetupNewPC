@@ -1,0 +1,24 @@
+Windows NVIDIA
+
+1. 下载和安装
+https://www.comfy.org/zh-cn/
+
+ComfyUI Setup 0.4.32 - x64
+
+CODE:
+https://github.com/Comfy-Org/desktop
+
+
+Nvdia 50 系显卡运行要求
+如果要使你的 Nvdia 50 系 GPU（Blackwell架构）可以正常运行 ComfyUI，你需要一个针对 CUDA 12.8 或更新版本的 PyTorch, 目前（2025年3月） PyTorch 的稳定版本尚未支持 Blackwell 架构，所以你需要使用夜间构建的版本。
+https://github.com/comfyanonymous/ComfyUI/releases/download/latest/ComfyUI_windows_portable_nvidia_or_cpu_nightly_pytorch.7z
+
+
+帮助文档：
+https://docs.comfy.org/zh-CN/installation/desktop/windows
+
+2. ​FLUX.1 [dev] 是由 Black Forest Labs 开发的一款先进的文本生成图像（Text-to-Image）模型
+https://huggingface.co/black-forest-labs/FLUX.1-dev
+
+免费生成图片
+https://fluxaistudio.com/zh/flux.1-dev
