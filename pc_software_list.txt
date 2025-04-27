@@ -17,6 +17,9 @@ https://docs.flutter.dev/release/archive
 sdk default path=C:\Users\Administrator\AppData\Local\Android\Sdk
 sdk new path=D:\android_studio_sdk\sdk
 
+3.4 Windows system environment variables
+Add to My computer > Add to Windows system environment variables
+D:\android_studio_sdk\flutter\flutter\bin
 
 ------------------------------------------
 4 fork
