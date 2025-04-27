@@ -13,6 +13,10 @@ New Flutter Project
 3.2 flutter
 https://docs.flutter.dev/release/archive
 
+3.3 config
+sdk default path=C:\Users\Administrator\AppData\Local\Android\Sdk
+sdk new path=D:\android_studio_sdk\sdk
+
 
 ------------------------------------------
 4 fork
