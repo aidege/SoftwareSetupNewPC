@@ -19,6 +19,10 @@ https://docs.flutter.dev/release/archive
 https://git-fork.com/
 
 5 Unity 6
+5.1 UnityHubSetup
+https://unity.com/download
+
+5.2 
 https://unity.com/releases/editor/archive
 
 6 rider
