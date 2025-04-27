@@ -1,7 +1,43 @@
 1 git
 https://git-scm.com/downloads
 
-2 SSMS
+2 https://www.comfy.org/
+
+3 Android Studio
+3.1
+https://developer.android.com/studio?hl=zh-cn
+
+Android Studio > Flugins > flutter
+New Flutter Project
+
+3.2 flutter
+https://docs.flutter.dev/release/archive
+
+
+------------------------------------------
+4 fork
+https://git-fork.com/
+
+5 Unity 6
+https://unity.com/releases/editor/archive
+
+6 rider
+https://www.jetbrains.com/zh-cn/rider/
+
+
+7 golang
+https://golang.google.cn/
+
+8 mongodb
+https://www.mongodb.com/try/download/community
+https://www.mongodb.com/products/tools/compass
+
+
+9 redis
+https://redis.io/
+https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
+
+10 SSMS
 https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 Tools 设计数据库字段
 Download SQL Server Management Studio (SSMS)
@@ -9,35 +45,6 @@ https://learn.microsoft.com/zh-cn/ssms/download-sql-server-management-studio-ssm
 
 Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
 
-3 fork
-https://git-fork.com/
-
-4 Unity 6
-https://unity.com/releases/editor/archive
-
-5 rider
-https://www.jetbrains.com/zh-cn/rider/
-
-
-6 golang
-https://golang.google.cn/
-
-7 mongodb
-https://www.mongodb.com/try/download/community
-https://www.mongodb.com/products/tools/compass
-
-8 Android Studio
-https://developer.android.com/studio?hl=zh-cn
-
-Android Studio > Flugins > flutter
-New Flutter Project
-
-9 flutter
-https://docs.flutter.dev/release/archive
-
-10 redis
-https://redis.io/
-https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 
 11 windsurf
 https://codeium.com/windsurf
