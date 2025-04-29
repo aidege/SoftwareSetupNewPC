@@ -1,0 +1,14 @@
+# 启用远程桌面
+Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" -Name "fDenyTSConnections" -Value 0
+
+# 放通 Windows 防火墙 3389 端口
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+
+# 检查 Remote Desktop Services 是否运行
+$service = Get-Service -Name TermService
+if ($service.Status -ne 'Running') {
+    Start-Service -Name TermService
+}
+
+# 输出结果
+Write-Output "✅ 远程桌面已启用，3389端口已放通，服务状态：$($service.Status)"
