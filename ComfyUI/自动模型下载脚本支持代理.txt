@@ -3,3 +3,26 @@
 你需要先安装 Hugging Face 的 Python SDK：
 
 pip install huggingface_hub
+
+
+from huggingface_hub import snapshot_download
+import os
+
+# 设置模型 repo 名称
+model_repo = "ostris/Flex.2-preview"
+
+# 设置下载目录（例如 ComfyUI 的模型目录）
+target_dir = r"D:\Program_Files\ComfyUI2025\ComfyUI_windows_portable_nightly_pytorch\ComfyUI\models\diffusers"
+
+# 设置是否使用代理
+use_proxy = True
+proxy = "http://127.0.0.1:7890"  # 替换成你代理软件的地址和端口
+
+if use_proxy:
+    os.environ["HTTP_PROXY"] = proxy
+    os.environ["HTTPS_PROXY"] = proxy
+
+# 下载模型到目标目录
+snapshot_download(repo_id=model_repo, local_dir=target_dir, resume_download=True)
+
+print("✅ 下载完成！模型已保存至:", target_dir)
