@@ -1,0 +1,4 @@
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+
+如果你本地有代理工具，但 Git 没有通过它访问，可以为 Git 设置代理：
