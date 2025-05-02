@@ -1,0 +1,5 @@
+ 自动模型下载脚本（支持代理）
+1. 安装依赖
+你需要先安装 Hugging Face 的 Python SDK：
+
+pip install huggingface_hub
