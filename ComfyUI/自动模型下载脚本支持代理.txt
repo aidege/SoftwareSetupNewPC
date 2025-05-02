@@ -4,6 +4,24 @@
 
 pip install huggingface_hub
 
+download_hf_model.py
+1 打开 代码编辑器（如 VS Code）。
+2 复制下面的完整脚本粘贴进去：
+3 点击 文件 > 另存为，在文件名框中输入 download_hf_model.py
+4 保存类型选择为 所有文件，编码方式选 UTF-8
+5 安装 Hugging Face SDK：
+pip install huggingface_hub
+
+6 在当前目录运行脚本：
+python download_hf_model.py
+
+7 成功效果
+Fetching 10 files...
+Downloading: 100%|████████████████████| model_index.json
+...
+✅ 下载完成！模型已保存至: D:\Program_Files\ComfyUI2025\...
+
+
 
 from huggingface_hub import snapshot_download
 import os
