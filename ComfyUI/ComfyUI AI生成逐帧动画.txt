@@ -1,0 +1,8 @@
+适合特效
+
+AnimateDiff + ControlNet + ComfyUI
+功能：基于 Stable Diffusion，输入一张角色图，生成连贯帧动画（用参考骨骼姿势或运动轨迹）。
+
+适合场景：Boss技能动画、非主角动效、演出动画。
+
+技术门槛：高（需本地部署或租GPU）。
