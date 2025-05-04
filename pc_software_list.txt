@@ -22,6 +22,10 @@ Add to My computer > Add to Windows system environment variables
 D:\android_studio_sdk\flutter\flutter\bin
 
 ------------------------------------------
+免费开源的看图软件
+https://www.xnview.com/en/xnviewmp/#downloads
+
+
 4 fork
 https://git-fork.com/
 
