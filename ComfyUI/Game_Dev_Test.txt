@@ -1,0 +1,9 @@
+1 Config data save to server or local db
+
+Update,
+
+Web 管理后台
+设计一套网页，能直接改参数（例如：怪物 HP、武器射速、掉落率），保存后推送到数据库，游戏端立刻收到变更。
+
+Unity 编辑器扩展
+做一个 EditorWindow，里面列出所有关键参数，拖动滑条就能实时同步到运行的场景。
