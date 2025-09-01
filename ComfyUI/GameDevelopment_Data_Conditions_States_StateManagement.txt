@@ -2,7 +2,11 @@ GameDevelopment_Data_Conditions_States_StateManagement
 游戏开发：数据、条件、状态与状态管理
 
 1.数据
+
 2.条件
+条件参数 Parameter
+判断条件是否满足 Conditions Check
+
 3.状态
 4.状态管理
 
