@@ -1,0 +1,58 @@
+using UnityEngine;
+using UnityEditor.Animations;  // 注意：Editor API，需要放在 Editor 文件夹下
+
+public class AnimatorConditionModifier : MonoBehaviour
+{
+    [SerializeField] private Animator m_Animator;
+
+    private void Start()
+    {
+        CheckAnimator();
+
+        string parameterName = "m_distance_current";
+
+        var controller = m_Animator.runtimeAnimatorController as AnimatorController;
+        if (controller != null)
+        {
+            // 获取基础层(第0层)的状态机
+            var stateMachine = controller.layers[0].stateMachine;
+
+            // 遍历所有状态
+            foreach (var state in stateMachine.states)
+            {
+                // 遍历状态的出站Transition
+                foreach (var transition in state.state.transitions)
+                {
+                    // 遍历Transition的所有Condition
+                    var conditions = transition.conditions;
+                    for (int i = 0; i < conditions.Length; i++)
+                    {
+                        var condition = conditions[i];
+
+                        // 如果找到目标参数
+                        if (condition.parameter == parameterName)
+                        {
+                            // 修改阈值
+                            condition.threshold = 10f; // 设置你需要的值
+                            // 注意：必须写回数组才能生效
+                            conditions[i] = condition;
+
+                            Debug.Log($"已修改状态 {state.state.name} 的 Transition 条件 {parameterName} 阈值为 {condition.threshold}");
+                        }
+                    }
+
+                    // 写回 Transition 的条件数组
+                    transition.conditions = conditions;
+                }
+            }
+        }
+    }
+
+    private void CheckAnimator()
+    {
+        if (m_Animator == null)
+        {
+            m_Animator = GetComponent<Animator>();
+        }
+    }
+}
