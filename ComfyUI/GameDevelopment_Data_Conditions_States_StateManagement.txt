@@ -1,4 +1,16 @@
 GameDevelopment_Data_Conditions_States_StateManagement
+
+Demo 1 Unity 2022.3.36 Use Animator Game State Machine
+
+1. DataToParameters
+Update Animator Parameters
+
+2. Status Node
+Run code business
+
+
+
+-----------------------------------------
 游戏开发：数据、条件、状态与状态管理
 
 1.数据
