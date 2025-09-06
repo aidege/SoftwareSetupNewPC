@@ -1,0 +1,6 @@
+流程图是目前最简单的开发方式
+游戏开发过程中，应尽可能利用编辑器和流程图工具来简化复杂问题。
+在没有流程图插件时，可以使用Unity Animator Controller 来代替
+
+In game development, use editor and flowchart tools whenever possible to simplify complex problems.
+Unity Animator Controller 
