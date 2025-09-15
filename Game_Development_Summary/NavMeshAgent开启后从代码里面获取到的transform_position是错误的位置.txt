@@ -1,0 +1,9 @@
+Unity 2022.3.36
+
+NavMeshAgent开启后从代码里面获取到的transform.position是错误的位置, 但是场景里面看到的是对的
+
+ [SerializeField] private NavMeshAgent m_Agent;
+ if (m_Agent != null)
+  {
+      Debug.LogError($"go name={transform.name}  npc3 trans={transform.position} nav={m_Agent.transform.position} anim={m_Animator.transform.parent.position}");
+ }
